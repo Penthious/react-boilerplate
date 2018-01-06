@@ -1,0 +1,22 @@
+{
+  "presets": [
+    "react",
+    "stage-1"
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        "env",
+        "react-hmre"
+      ],
+      "plugins": [
+        "transform-class-properties",
+        "transform-decorators-legacy"
+      ]
+    },
+    "production": {
+    },
+    "test": {
+    }
+  }
+}
